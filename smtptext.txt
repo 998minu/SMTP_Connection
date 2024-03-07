@@ -1,0 +1,10 @@
+Create MIME
+Add sender, receiver address into the MIME
+Add the mail title into the MIME
+Attach the body into the MIME
+Open the file as binary mode, which is going to be attached with the mail
+Read the byte stream and encode the attachment using base64 encoding scheme.
+Add header for the attachments
+Start the SMTP session with valid port number with proper security features.
+Login to the system.
+Send mail and exit
